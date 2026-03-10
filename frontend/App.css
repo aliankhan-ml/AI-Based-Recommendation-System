@@ -1,0 +1,91 @@
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 10px;
+}
+
+.heading {
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2rem;
+}
+
+form {
+  padding: 20px 10px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-direction: column;
+  align-items: center;
+}
+
+form div {
+  max-width: 400px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+form label {
+  font-size: 14px; 
+  padding: 0px 10px;
+}
+
+form input, select {
+  outline: none;
+  border: 1px solid #6a8191;
+  padding: 10px;
+  background: transparent;
+  color: #ffffff;
+}
+
+form option {
+  color: #000000;
+}
+
+form button {
+  border: 1px solid #6a8191;
+  width: 100%;
+  max-width: 400px;
+  margin-top: 10px;
+  padding: 10px;
+  cursor: pointer;
+  background: transparent;
+  color: #ffffff;
+}
+
+form select:hover, input:hover {
+  border-radius: 10px;
+}
+
+form button:hover {
+  border-radius: 10px;
+}
+
+p {
+  text-align: center;
+}
+
+ul {
+  margin: auto;
+  list-style: none;
+  display: flex; 
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+ul li img {
+  width: 300px;
+  height: 300px;
+  transition: transform 0.2s ease-in-out;
+}
+
+ul li img:hover {
+  transform: translate(-5px, -5px);
+  box-shadow: rgba(218, 218, 218, 0.2) 0px 2px 8px 0px;
+}
+
