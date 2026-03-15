@@ -25,4 +25,4 @@ Fine-tuning OpenAI CLIP (ViT-B/32) on a custom 30,832 product image dataset for 
 See **SETUP.pdf** for full installation and running instructions.
 
 ## Authors
-Alian Khan | Supervisor: Dr. Naeem Akhtar | CVL@PIEAS | DCIS, PIEAS | June 2023
+Alian Khan | Supervisor: Dr. Naeem Akhtar | CVL@PIEAS | DCIS, PIEAS
